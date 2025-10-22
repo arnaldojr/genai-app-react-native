@@ -26,6 +26,12 @@ npm-debug.*
 yarn-debug.*
 yarn-error.*
 
+
+.env
+.vscode
+
+
+
 # macOS
 .DS_Store
 *.pem
