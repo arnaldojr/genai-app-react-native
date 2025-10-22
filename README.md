@@ -1,5 +1,18 @@
 # Welcome to your Expo app 👋
 
+crie o arquivo .env na raiz do projeto com as suas credenciais
+
+```bash
+EXPO_PUBLIC_API_KEY="sua_key_firebase_ai_logic"
+EXPO_PUBLIC_AUTH_DOMAIN="sua_key_firebase_ai_logic"
+EXPO_PUBLIC_PROJECT_ID="sua_key_firebase_ai_logic"
+EXPO_PUBLIC_STORAGE_BUCKET="sua_key_firebase_ai_logic"
+EXPO_PUBLIC_MESSAGING_SENDER_ID="sua_key_firebase_ai_logic"
+EXPO_PUBLIC_APP_ID="sua_key_firebase_ai_logic"
+EXPO_PUBLIC_MEASUREMENT_ID="sua_key_firebase_ai_logic"
+```
+
+
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
 ## Get started
