@@ -13,16 +13,16 @@ const firebaseConfig = {
 
 // https://firebase.google.com/docs/ai-logic/model-parameters?api=dev
 const generationConfig = {
-  maxOutputTokens: 512,
-  temperature: 0.7,
-  topP: 0.8,
+  maxOutputTokens: 512,  // controla o comprimento da resposta
+  temperature: 0.5,   // controla a aleatoriedade
+  topP: 0.8,   // controla a diversidade
 };
 
 const app = initializeApp(firebaseConfig);
 // Initialize the Gemini Developer API backend service
 const ai = getAI(app, { backend: new GoogleAIBackend() });
 
-const model = getGenerativeModel(ai, { model: 'gemini-2.5-flash', generationConfig });
+const model = getGenerativeModel(ai, { model: 'gemini-2.5-flash' });
 
 
 export interface ChatHistory {
