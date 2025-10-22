@@ -1,6 +1,6 @@
 # Welcome to your Expo app 👋
 
-crie o arquivo .env na raiz do projeto com as suas credenciais
+crie o arquivo .env na raiz do projeto com as suas credenciais.
 
 ```bash
 EXPO_PUBLIC_API_KEY="sua_key_firebase_ai_logic"
@@ -11,6 +11,11 @@ EXPO_PUBLIC_MESSAGING_SENDER_ID="sua_key_firebase_ai_logic"
 EXPO_PUBLIC_APP_ID="sua_key_firebase_ai_logic"
 EXPO_PUBLIC_MEASUREMENT_ID="sua_key_firebase_ai_logic"
 ```
+
+Para adquirir as credenciais: siga as etapas descritas em [https://firebase.google.com/docs/ai-logic/get-started?api=dev](https://firebase.google.com/docs/ai-logic/get-started?api=dev)
+
+- Step 1: Set up a Firebase project and connect your app
+
 
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
